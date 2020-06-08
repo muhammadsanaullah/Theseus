@@ -1,0 +1,14 @@
+package Puzzle;
+
+public class Hint {
+    private String hints;
+    public Hint(){
+
+    }
+    public String getHint(){
+        return hints;
+    }
+    public void setHint(String what_hint){
+        hints = what_hint;
+    }
+}
